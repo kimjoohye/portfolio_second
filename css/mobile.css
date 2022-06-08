@@ -1,0 +1,241 @@
+/*메뉴*/
+    nav{
+        padding: 15px 20px 0px 0px;
+        flex-direction: column;
+        text-align: center;
+        align-items: flex-start;
+        background-color: black;
+    }
+    nav > h2{
+        padding-bottom: 15px;
+    }
+    .nav-bar{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        display: none;
+    }
+    .nav-item{
+        padding-bottom: 15px;
+        width: 100%;
+    }
+    .nav-item::after {
+        display: none; 
+    }
+
+    .navbar-toggleBtn{
+        display: block;
+    }
+
+    .fa-bars{
+        color: yellow;
+    }
+
+    .nav-bar.active{
+        display: flex;
+        transition: all 3s ease-in-out;
+    }
+    
+    .main_headline{
+        font-size: 5.1rem;
+        line-height: 90px;
+    }
+    /*전체*/
+    article:first-child > h2{
+        padding-top: 65px;
+        font-size: 40px;
+    }
+    article:nth-child(2) > h2{
+        padding-top: 65px;
+        font-size: 40px;
+    }
+    article:nth-child(3) > h2{
+        padding-top: 65px;
+        font-size: 40px;
+    }
+    article:nth-child(4) > h2{
+        padding-top: 65px;
+        font-size: 40px;
+    }
+    /**about 페이지*/
+    article:first-child{
+        height: auto;
+    }
+
+    .about{
+        flex-direction: column;
+        margin: 20px 40px 0px;
+    }
+
+    .about > div > img{
+        max-width: 100%;
+        width: 23rem;
+        height: auto;
+    }
+
+    .about_img{
+        margin-right: 0px;
+        align-items: center;
+    }
+    .about_introduction{
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+
+    .about_p{
+        line-height: 2.7rem;
+        font-size: 1.7rem;
+        color: white;
+        margin-top: 16px;
+        text-align: justify;
+    }
+
+   .about_introduction > div > div:first-child{
+      margin-right: 5px;
+      margin-left: 10px;
+    }
+
+   .about_introduction > div > div:nth-child(2){
+      margin-right: 5px;
+      margin-left: 5px;
+    }
+
+   .about_introduction > div > div:nth-child(3){
+      margin-left: 5px;
+    }
+
+    .about_introduction > div{
+        flex-direction: column;
+        justify-content: center;
+        margin-top: 20px;
+        height: 300px;
+    }
+
+    .about_introduction > div > div{
+        height: 200px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .about_introduction > div > div> h2{
+        font-size: 1.5rem;
+    }
+    .about_introduction > div > div > p{
+        font-size: 1.4rem;
+        margin: 3px 0px;
+        text-align: center;
+    }
+    .about_introduction > div> div:first-child > p{
+        line-height: 1.8rem;
+    }
+    .about_introduction > div> div:nth-child(2) > p{
+          line-height: 2.2rem;
+    }
+
+    /*skills 페이지*/
+    article:nth-child(2){
+        height: auto;
+    }
+    
+    .skills{
+        width: 100%;
+        padding: 15px 0px 10px;
+        justify-content: center;
+    }
+
+    .skill{
+        width: 14.2rem;
+        height: 17rem;
+        margin: 20px;
+        padding-top: 20px;
+    }
+    
+    .skill img{
+         max-width: 100%;
+         height: 7rem;
+    }
+    
+    .skill:nth-child(10) > img{
+        width: 100%;
+    }
+    
+    /*포트폴리오 페이지*/
+
+    article:nth-child(3) > h2{
+        padding-top: 65px;
+        font-size: 40px;
+    }
+    
+    article:nth-child(3){
+        height: auto;
+    }
+
+    .swiper-container > .swiper-wrapper {
+        margin-top: 0;
+        height: 400px !important;
+    }
+
+    .swiper-container-horizontal>.swiper-pagination-bullets{
+        bottom: 0%;
+    }
+
+    .swiper-button-next,
+    .swiper-button-prev{
+        margin: 0px;
+    }
+
+    .swiper-slide:first-child > span,
+    .swiper-slide:nth-child(2) > span,
+    .swiper-slide:nth-child(3) > span{
+        max-width: 70%;
+        height: 350px;
+    }
+    
+    .bg{
+        max-width: 100%;
+        height: 350px;
+    }
+    
+    .item-button{
+        top: 72%;
+    }
+
+    .item-h3{
+        font-size: 3rem;
+    }
+    
+    .item-p{
+        font-size: 2.1rem;
+    }
+
+    /*contact 페이지*/
+    article:nth-child(4){
+        height: auto;
+    }
+     
+    .contact_hello{
+        line-height: 50px;
+        text-align: center;
+        margin: 0px;
+    }
+    
+    .contact_hello > h3{
+        font-size: 3.5rem;
+    }
+    
+    .contact_hello > p{
+        font-size: 2.5rem;
+    }
+
+    .contacts{
+        padding-bottom: 80px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contacts > div{
+        margin-bottom: 20px;
+        width: 70%;
+    }
+    footer{
+        font-size: 15px;
+    }

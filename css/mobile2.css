@@ -1,0 +1,64 @@
+  /*전체*/
+    article:first-child > h2{
+        padding-left: 10px;
+        font-size: 35px;
+    }
+    
+    article:nth-child(2) > h2{
+        padding-left: 10px;
+        font-size: 35px;
+    }
+    
+    article:nth-child(3) > h2{
+        padding-left: 10px;
+        font-size: 35px;
+    }
+    article:nth-child(4) > h2{
+        padding-left: 10px;
+        font-size: 35px;
+    }
+    /*메뉴*/
+    nav > h2 {
+        margin-left: 20px;
+    }
+    /*about 페이지*/
+    .about{
+        margin: 20px 40px 0px;
+    }
+
+    .about_img{
+        align-items: center;
+    }
+    .about > div > img{
+        width: 19rem;
+    }r
+    /*portfolio 페이지*/
+    .swiper-container > .swiper-wrapper {
+        margin-top: 0;
+    }
+
+    .item-h3{
+        font-size: 2.4rem;
+    }
+    .item-p{
+        font-size: 1.8rem;
+        padding: 18px;
+        top: 40%;
+        line-height: 27px;
+    }
+    .item-button{
+        margin: 0px 18px;
+    }
+
+    /*contact 페이지*/
+    .contact_hello{
+        padding: 20px;
+        margin: 0px;
+    }
+    .contact_hello > h3{
+        font-size: 2.4rem;
+    }
+    .contact_hello > p{
+        font-size: 2rem;
+        line-height: 35px;
+    }

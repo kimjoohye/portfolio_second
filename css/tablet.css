@@ -1,0 +1,142 @@
+
+    /*메뉴*/
+    nav > h2{
+        font-size: 20px;
+        margin-left: 20px;
+    }
+
+    .nav-item{
+        margin-right: 10px;
+        font-size: 20px;
+    }
+
+    .nav-item::after {
+        padding-left:10px;
+    }
+
+    /*about 페이지*/
+    article:first-child{
+        height: auto;
+    }
+    .about > div img{
+        width: 24rem;
+        height: 30rem;
+        border-radius: 80px;
+    }
+    .about_img{
+        margin: 0px 15px;
+    }
+    
+    .about_introduction{
+        margin: 0px 15px;
+        width: 500px;
+    } 
+
+    .about_introduction > div{
+        margin-top: 5px;
+    }
+
+    .about_p{
+        line-height: 30px;
+        font-size: 1.7rem;
+        margin-top: 10px;
+    }
+
+    .about_introduction > div > div> h2{
+        font-size: 2rem;
+    }
+    .about_introduction > div > div > p{
+        font-size: 1.5rem;
+        margin: 5px;
+    }
+
+    /*skills 페이지*/
+    article:nth-child(2){
+        height: auto;
+    }
+    .skills{
+        width: 90%;
+        padding: 20px;
+        justify-content: center;
+    }
+
+    .skill{
+        width: 15%;
+        height: 15.6rem;
+        margin: 15px;
+    }
+    
+    .skill img{
+         height: 7.4rem;
+    }
+    
+    .skill:nth-child(10) > img{
+        width: 14.4rem;
+    }
+
+    .skill p{
+        margin: 12px 2px;
+        font-size: 2rem;
+    }
+
+    /*portfolio 페이지*/
+    article:nth-child(3){
+        height: auto;
+    }
+    .swiper-button-next,
+    .swiper-button-prev{
+        margin: 0px;
+    }
+
+    .swiper-slide:first-child > span,
+    .swiper-slide:nth-child(2) > span,
+    .swiper-slide:nth-child(3) > span{
+        max-width: 80%;
+        max-height: 400px;
+    }
+
+    .swiper-container > .swiper-wrapper{
+        margin-top: 0px;
+        height: 500px !important;
+    }
+
+    .bg{
+        max-width: 100%;
+        max-height: 400px;
+    }
+    
+    .item-button{
+        top: 68%;
+    }
+
+    /*contacts 페이지*/
+    article:nth-child(4){
+        height: auto;
+    }
+
+    .contact_hello{
+        margin: 0px;
+        padding: 25px 40px 30px;
+    }
+    .contact_hello > h3{
+        font-size: 3rem;
+    }
+    .contact_hello > p{
+        font-size: 2.6rem;
+    }
+    .contacts > div > h3{
+        font-size: 2.4rem;
+    }
+    .contacts{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 100px;
+    }
+    .contacts > div {
+        margin-bottom: 15px;
+    }
+
+    footer{
+        font-size: 14px;
+    }
+    
